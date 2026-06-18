@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBT – Igreja Bíblica da Trindade | Pirassununga-SP</title>
+  
+  <!-- Google Fonts: Darker Grotesque para títulos e Inter para o corpo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="/style.css">
+  <!-- CSS Administrativo -->
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+
+  <!-- Header / Navbar Sticky Responsiva -->
+  <header class="main-header" id="mainHeader">
+    <div class="nav-container">
+      <a href="#" class="logo-link" aria-label="IBT Principal">
+        <!-- SVG Oficial Logo_IBT_Principal fornecido -->
+        <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 750" class="logo-svg">
+          <defs>
+            <style>.cls-1 { fill: #ffffff; }</style>
+          </defs>
+          <g>
+            <path class="cls-1" d="M331.89,323.81h-27.24c-1.92,0-3.47,1.55-3.47,3.47v266.03c0,1.42,1.15,2.57,2.57,2.57h29.05c1.42,0,2.57-1.15,2.57-2.57v-266.03c0-1.92-1.55-3.47-3.47-3.47Z"/>
+            <path class="cls-1" d="M363.26,269.1h0c35.97-23.83,77.49-36.62,120.74-37.35,1.4-.02,2.52-1.15,2.52-2.55v-22.52c0-1.43-1.18-2.6-2.61-2.58-51.41.77-100.55,16.98-142.85,47.16h-2.66c-1.56,0-2.82-1.26-2.82-2.82v-91.76c0-1.42-1.15-2.57-2.57-2.57h-29.51c-1.42,0-2.57,1.15-2.57,2.57v89.1c0,3.02-2.47,5.48-5.48,5.48h0c-42.3-30.19-91.44-46.39-142.85-47.16-1.43-.02-2.61,1.15-2.61,2.58v22.52c0,1.4,1.12,2.53,2.52,2.55,43.25.73,84.78,13.52,120.74,37.35h0c2.87,1.9,1.52,6.36-1.92,6.36h-118.79c-1.42,0-2.57,1.15-2.57,2.57v22.2c0,1.42,1.15,2.57,2.57,2.57h331.4c1.42,0,2.57-1.15,2.57-2.57v-22.2c0-1.42-1.15-2.57-2.57-2.57h-118.79c-3.44,0-4.78-4.46-1.92-6.36Z"/>
+          </g>
+          <g>
+            <path class="cls-1" d="M680.11,323.81c-.82,0-1.54.52-1.8,1.3l-4.39,13.3c-.4,1.22.51,2.48,1.8,2.48h8.63c.73,0,1.39-.42,1.7-1.07l6.42-13.3c.61-1.26-.31-2.71-1.7-2.71h-10.66Z"/>
+            <path class="cls-1" d="M571.94,302.79h74.98c.7,0,1.28-.57,1.28-1.28v-18.47c0-.7-.57-1.28-1.28-1.28h-26.22v-103.97h26.22c.7,0,1.28-.57,1.28-1.28v-18.47c0-.7-.57-1.28-1.28-1.28h-74.98c-.7,0-1.28.57-1.28,1.28v18.47c0,.7.57,1.28,1.28,1.28h26.22v103.97h-26.22c-.7,0-1.28.57-1.28,1.28v18.47c0,.7.57,1.28,1.28,1.28Z"/>
+            <path class="cls-1" d="M741.04,305.47c23.91,0,41.58-10.55,49.76-29.7l3.52-8.24v33.98c0,.7.57,1.28,1.28,1.28h19.77c.7,0,1.28-.57,1.28-1.28v-78.02c0-.56-.46-1.02-1.02-1.02h-67.64c-.7,0-1.28.57-1.28,1.28v18.05c0,.7.57,1.28,1.28,1.28h45.94l-.28,2.08c-3,22.05-23.49,38.67-47.68,38.67-29.8,0-50.61-22.22-50.61-54.04s21.46-54.06,51.02-54.06,40.6,19.16,43.63,25.03c.14.27.37.46.65.55.25.08.53.05.77-.08l17.54-9.7c.6-.33.84-1.11.52-1.72-11.78-22.36-35.35-35.7-63.1-35.7-42.29,0-74.17,32.54-74.17,75.69s29.59,75.68,68.84,75.68Z"/>
+            <path class="cls-1" d="M852.12,302.79h19.98c.7,0,1.28-.57,1.28-1.28v-53.67h34.2c14.72,0,22.5,7.05,22.5,20.38v33.3c0,.7.57,1.28,1.28,1.28h20.39c.7,0,1.28-.57,1.28-1.28v-37.84c0-16.38-7.97-28.24-22.44-33.4l-5.21-1.85,5.28-1.63c5.5-1.69,10.18-4.4,13.9-8.04,6.25-6.12,9.7-14.75,9.7-24.3,0-22.19-18.51-37.68-45.02-37.68h-57.09c-.7,0-1.28.57-1.28,1.28v143.45c0,.7.57,1.28,1.28,1.28ZM873.37,177.8h31.33c16.28,0,26.4,9.23,26.4,24.1s-10.76,24.93-25.58,24.93h-32.15v-49.02Z"/>
+            <path class="cls-1" d="M988.98,302.79h87.5c.7,0,1.28-.57,1.28-1.28v-18.26c0-.7-.57-1.28-1.28-1.28h-66.25v-43.23h57.01c.7,0,1.28-.57,1.28-1.28v-18.05c0-.7-.57-1.28-1.28-1.28h-57.01v-40.35h63.99c.7,0,1.28-.57,1.28-1.28v-18.47c0-.7-.57-1.28-1.28-1.28h-85.24c-.7,0-1.28.57-1.28,1.28v143.45c0,.7.57,1.28,1.28,1.28Z"/>
+            <path class="cls-1" d="M1144.27,305.47c31.72,0,53.03-20.45,53.03-50.9v-96.78c0-.56-.46-1.02-1.02-1.02h-72.16c-.7,0-1.28.57-1.28,1.28v18.47c0,.7.57,1.28,1.28,1.28h50.85v76.78c0,14.56-9.49,29.26-30.7,29.26-12.87,0-23.47-7.38-28.35-19.74-.1-.26-.31-.45-.58-.55-.11-.04-.23-.06-.34-.06-.18,0-.36.05-.52.14l-16.66,9.61c-.44.25-.63.78-.46,1.23,5.89,14.99,21.3,31.01,46.9,31.01Z"/>
+            <path class="cls-1" d="M1217.9,302.79h20.89c.56,0,1.05-.36,1.22-.89l9.77-31.12h67.12l9.78,31.12c.17.53.66.89,1.22.89h21.09c.33,0,.63-.15.82-.42.19-.26.25-.6.15-.91l-45.56-143.97c-.14-.43-.52-.71-.97-.71h-39.96c-.45,0-.83.29-.97.71l-45.56,143.97c-.1.31-.04.64.15.91.19.26.49.42.82.42ZM1283.34,163.12l26.97,86.21h-53.93l26.96-86.21Z"/>
+            <path class="cls-1" d="M828.94,487.98h-54.45c-1.12,0-2.03.91-2.03,2.04v13.69c0,1.12.91,2.04,2.03,2.04h17.8v72.39h-17.8c-1.12,0-2.03.91-2.03,2.04v13.69c0,1.12.91,2.04,2.03,2.04h54.45c1.12,0,2.04-.91,2.04-2.04v-13.69c0-1.12-.91-2.04-2.04-2.04h-17.8v-72.39h17.8c1.12,0,2.04-.91,2.04-2.04v-13.69c0-1.12-.91-2.04-2.04-2.04Z"/>
+            <path class="cls-1" d="M743.94,534.92c4.76-4.66,7.39-11.21,7.39-18.46,0-16.77-13.89-28.48-33.78-28.48h-41.37c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h14.78c1.12,0,2.04-.91,2.04-2.04v-37.6h23.36c9.76,0,14.93,4.63,14.93,13.4v24.2c0,1.12.91,2.04,2.03,2.04h15.08c1.12,0,2.04-.91,2.04-2.04v-27.48c0-12.41-6.06-21.4-17.05-25.31l-.06-.02.06-.02c4.17-1.28,7.72-3.34,10.55-6.11ZM714.89,538.5h-21.88v-32.76h21.29c10.94,0,17.74,6.16,17.74,16.08s-7.21,16.68-17.15,16.68Z"/>
+            <path class="cls-1" d="M1347.97,578.28h-46.67v-28.58h40c1.12,0,2.04-.91,2.04-2.04v-13.39c0-1.12-.91-2.03-2.04-2.03h-40v-26.5h45.04c1.12,0,2.03-.91,2.03-2.04v-13.69c0-1.12-.91-2.04-2.03-2.04h-61.86c-1.12,0-2.03.91-2.03,2.04v103.84c0,1.12.91,2.04,2.03,2.04h63.49c1.12,0,2.03-.91,2.03-2.04v-13.54c0-1.12-.91-2.04-2.03-2.04Z"/>
+            <path class="cls-1" d="M1127.63,489.4c-.27-.85-1.05-1.42-1.94-1.42h-28.83c-.89,0-1.67.57-1.94,1.42l-32.86,103.84c-.2.63-.09,1.29.3,1.82.39.53.99.83,1.64.83h15.21c.89,0,1.67-.57,1.94-1.43l6.8-21.67h46.5l6.81,21.67c.27.85,1.05,1.43,1.94,1.43h15.35c.66,0,1.26-.3,1.64-.83.39-.53.5-1.19.3-1.82l-32.86-103.84ZM1093.52,554.73l17.68-56.52,17.68,56.52h-35.36Z"/>
+            <path class="cls-1" d="M653.8,487.98h-81.1c-1.12,0-2.04.91-2.04,2.04v13.84c0,1.12.91,2.04,2.04,2.04h30.98v87.96c0,1.12.91,2.04,2.03,2.04h14.93c1.12,0,2.04-.91,2.04-2.04v-87.96h31.12c1.12,0,2.04-.91,2.04-2.04v-13.84c0-1.12-.91-2.04-2.04-2.04Z"/>
+            <path class="cls-1" d="M940.8,487.98h-14.48c-1.12,0-2.04.91-2.04,2.04v92.15l-36.43-92.9c-.31-.78-1.05-1.29-1.9-1.29h-29.07c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h14.63c1.12,0,2.04-.91,2.04-2.04v-92.02l35.84,92.75c.3.78,1.06,1.3,1.9,1.3h29.51c1.12,0,2.04-.91,2.04-2.04v-103.84c0-1.12-.91-2.04-2.04-2.04Z"/>
+            <path class="cls-1" d="M1000.01,487.98h-32.49c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h32.49c33.29,0,54.8-21.18,54.8-53.95s-22.53-53.96-54.8-53.96ZM998.67,578.28h-14.19v-72.69h14.19c22.63,0,36.69,13.93,36.69,36.34s-13.71,36.34-36.69,36.34Z"/>
+            <path class="cls-1" d="M1211.2,487.98h-32.48c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h32.48c33.29,0,54.8-21.18,54.8-53.95s-22.53-53.96-54.8-53.96ZM1209.86,578.28h-14.19v-72.69h14.19c22.63,0,36.69,13.93,36.69,36.34s-13.71,36.34-36.69,36.34Z"/>
+            <path class="cls-1" d="M655.16,445.36h49.68c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-15.96v-65.49h15.96c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-49.68c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14h15.96v65.49h-15.96c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14Z"/>
+            <path class="cls-1" d="M934.32,363.11c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-49.68c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14h15.96v65.49h-15.96c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14h49.68c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-15.96v-65.49h15.96Z"/>
+            <path class="cls-1" d="M1068.86,424.29h42.01l6.15,19.57c.28.89,1.1,1.5,2.04,1.5h14c.69,0,1.32-.32,1.72-.87.41-.56.52-1.25.31-1.91l-29.98-94.74c-.28-.89-1.1-1.49-2.04-1.49h-26.3c-.94,0-1.75.6-2.04,1.49l-29.98,94.74c-.21.66-.09,1.35.31,1.91.41.56,1.03.87,1.72.87h13.87c.94,0,1.76-.6,2.04-1.5l6.14-19.57ZM1089.87,356.9l15.75,50.35h-31.5l15.75-50.35Z"/>
+            <path class="cls-1" d="M1325.67,424.29l6.15,19.57c.28.89,1.1,1.5,2.04,1.5h14c.69,0,1.32-.32,1.72-.87.41-.55.52-1.25.31-1.91l-29.98-94.74c-.28-.89-1.1-1.49-2.04-1.49h-26.3c-.94,0-1.75.6-2.04,1.49l-29.98,94.74c-.21.66-.09,1.35.31,1.91.41.56,1.03.87,1.72.87h13.87c.94,0,1.76-.6,2.04-1.5l6.14-19.57h42.02ZM1304.66,356.9l15.75,50.35h-31.5l15.75-50.35Z"/>
+            <path class="cls-1" d="M572.8,445.35h36.66c18.41,0,31.77-12.81,31.77-30.47,0-11.89-6.21-21.46-16.67-25.73,8.51-2.9,13.56-10.05,13.56-19.27,0-14.08-11.84-23.54-29.47-23.54h-35.85c-1.18,0-2.14.96-2.14,2.14v94.73c0,1.18.96,2.14,2.14,2.14ZM588.42,362.97h19.01c7.49,0,12.53,4.42,12.53,10.99,0,7.47-5.04,12.48-12.53,12.48h-19.01v-23.48ZM588.42,402.26h20.5c8.46,0,14.15,5.07,14.15,12.62,0,8.03-5.95,13.85-14.15,13.85h-20.5v-26.47Z"/>
+            <path class="cls-1" d="M794.54,414.88c0-11.89-6.22-21.46-16.67-25.73,8.51-2.9,13.56-10.05,13.56-19.27,0-14.08-11.84-23.54-29.47-23.54h-35.85c-1.18,0-2.14.96-2.14,2.14v94.73c0,1.18.96,2.14,2.14,2.14h36.66c18.41,0,31.77-12.81,31.77-30.47ZM741.73,362.97h19.01c7.49,0,12.53,4.42,12.53,10.99,0,7.47-5.04,12.48-12.53,12.48h-19.01v-23.48ZM762.23,428.73h-20.5v-26.47h20.5c8.46,0,14.15,5.07,14.15,12.62,0,8.03-5.95,13.85-14.15,13.85Z"/>
+            <path class="cls-1" d="M810.39,348.48v93.48c0,1.87,1.52,3.39,3.39,3.39h55.72c1.18,0,2.14-.96,2.14-2.14v-12.63c0-1.18-.96-2.14-2.14-2.14h-41.22v-79.97c0-1.18-.96-2.14-2.14-2.14h-13.62c-1.18,0-2.14.96-2.14,2.14Z"/>
+            <path class="cls-1" d="M1042.96,415.23l.29-.86c.14-.42-.05-.87-.44-1.07l-14.35-7.22c-.23-.12-.51-.13-.75-.02-.24.11-.42.31-.49.57l-.34,1.21c-3.8,13.44-15.48,22.12-29.75,22.12-18.99,0-32.25-14.02-32.25-34.1s13.56-34.11,32.25-34.11c13.08,0,24.19,7.24,28.31,18.46l.41,1.13c.09.24.28.43.52.52.24.09.51.07.73-.05l14.05-7.55c.4-.22.58-.71.39-1.13l-.38-.88c-7.53-17.32-23.99-27.67-44.03-27.67-28.74,0-50.41,22.04-50.41,51.27s21.2,51.27,50.41,51.27c21.34,0,39.33-12.52,45.85-31.89Z"/>
+            <path class="cls-1" d="M1178.76,445.36h29.64c30.54,0,50.27-19.43,50.27-49.5s-20.67-49.51-50.27-49.51h-29.64c-1.18,0-2.14.96-2.14,2.14v94.73c0,1.18.96,2.14,2.14,2.14ZM1194.51,362.98h12.66c20.47,0,33.19,12.6,33.19,32.88s-12.41,32.88-33.19,32.88h-12.66v-65.76Z"/>
+          </g>
+        </svg>
+      </a>
+      
+      <!-- Navegação Principal -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio" class="nav-item active">Início</a>
+        <a href="#valores" class="nav-item">Valores</a>
+        <a href="#quem-somos" class="nav-item">Quem Somos</a>
+        <a href="#cultos" class="nav-item">Cultos</a>
+        <a href="#visite" class="nav-item cta-btn">Visite-nos</a>
+      </nav>
+      
+      <!-- Botão Menu Hamburguer para Mobile -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Overlay para Menu Mobile -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <!-- Conteúdo Principal da Landing Page -->
+  <main class="main-content">
+    <section id="inicio" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="section-container grid-2-col">
+        <div class="hero-content text-left">
+          <span class="hero-tagline">Igreja Bíblica da Trindade</span>
+          <h1>Igreja Bíblica da Trindade</h1>
+          <p>Firmados na Palavra, vivendo em comunidade e proclamando o Evangelho em Pirassununga-SP.</p>
+          <div class="hero-actions">
+            <a href="#cultos" class="btn btn-primary">Conheça Nossos Cultos</a>
+            <a href="#quem-somos" class="btn btn-outline">Nossa História</a>
+          </div>
+        </div>
+        
+        <div class="hero-logo-container">
+          <div class="hero-logo-card">
+            <div class="card-glow"></div>
+            <!-- SVG Oficial Logo_IBT_Negativo fornecido -->
+            <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 750" class="hero-logo-svg">
+              <defs>
+                <style>
+                  .cls-neg-1 { fill: #002c67; }
+                  .cls-neg-2 { fill: #02abcb; }
+                </style>
+              </defs>
+              <path class="cls-neg-1" d="M696.54,524.58h150.12c1.87,0,3.41-1.53,3.41-3.41v-34.61c0-1.87-1.53-3.41-3.41-3.41h-52.8v-214.04h52.8c1.88,0,3.41-1.52,3.41-3.41v-34.61c0-1.87-1.53-3.41-3.41-3.41h-150.12c-1.88,0-3.41,1.52-3.41,3.41v34.61c0,1.87,1.53,3.41,3.41,3.41h52.8v214.04h-52.8c-1.87,0-3.41,1.53-3.41,3.41v34.61c0,1.87,1.53,3.41,3.41,3.41Z"/>
+              <path class="cls-neg-1" d="M1006.39,524.57c54.09,0,93.36-37.57,93.36-89.32,0-35.43-18.86-63.76-50.44-75.78l-3-1.14c-3.03-1.15-2.89-5.49.21-6.44l3.07-.94c25.37-7.8,40.52-28.54,40.52-55.46,0-40.54-34.65-67.78-86.22-67.78h-109.25c-1.88,0-3.41,1.52-3.41,3.41v290.06c0,1.87,1.53,3.41,3.41,3.41h111.76ZM935.73,268.7h64.37c26.46,0,44.24,15.86,44.24,39.47,0,26.37-17.78,44.08-44.24,44.08h-64.37v-83.55ZM935.73,390.73h68.99c29.46,0,49.26,17.89,49.26,44.51,0,28.01-20.72,48.34-49.26,48.34h-68.99v-92.85Z"/>
+              <path class="cls-neg-1" d="M1252.63,524.57c1.87,0,3.41-1.53,3.41-3.41v-251.61h90.56c1.88,0,3.41-1.52,3.41-3.41v-35.04c0-1.87-1.53-3.41-3.41-3.41h-225.63c-1.88,0-3.41,1.52-3.41,3.41v35.04c0,1.87,1.53,3.41,3.41,3.41h90.15v251.61c0,1.87,1.53,3.41,3.41,3.41h38.11Z"/>
+              <g>
+                <path class="cls-neg-2" d="M379.91,145.09c-126.97,0-229.91,102.93-229.91,229.91s93.44,220.13,212.09,229.23v-216.64c0-2.87,2.34-5.21,5.21-5.21h25.21c2.87,0,5.21,2.34,5.21,5.21v216.64c118.65-9.09,212.09-108.25,212.09-229.23,0-126.97-102.93-229.91-229.91-229.91ZM537.58,296.84c0,2.36-1.93,4.32-4.3,4.36-39.6.67-77.85,12.5-110.64,34.22-.68.45-.57,1.1-.49,1.36.08.26.35.86,1.16.86h109.9c2.41,0,4.37,1.96,4.37,4.38v20.54c0,2.41-1.96,4.37-4.37,4.37H226.6c-2.41,0-4.37-1.96-4.37-4.37v-20.54c0-2.41,1.96-4.38,4.37-4.38h109.9c.81,0,1.08-.6,1.16-.86.08-.26.19-.91-.49-1.36-32.79-21.72-71.05-33.55-110.64-34.22-2.37-.04-4.3-2-4.3-4.36v-20.84c0-1.18.47-2.3,1.31-3.13.84-.83,1.96-1.3,3.13-1.26,47.63.72,93.5,15.79,132.7,43.58,1.43-.27,2.51-1.52,2.51-3.02v-82.43c0-2.41,1.96-4.38,4.37-4.38h27.3c2.41,0,4.37,1.96,4.37,4.38v84.89c0,.34.28.61.61.61h1.82c39.21-27.83,85.11-42.92,132.77-43.64,1.16,0,2.29.43,3.13,1.26.84.83,1.31,1.94,1.31,3.13v20.84Z"/>
+                <path class="cls-neg-1" d="M379.91,145.09c-126.97,0-229.91,102.93-229.91,229.91s93.44,220.13,212.09,229.23v-216.64c0-2.87,2.34-5.21,5.21-5.21h25.21c2.87,0,5.21,2.34,5.21,5.21v216.64c118.65-9.09,212.09-108.25,212.09-229.23,0-126.97-102.93-229.91-229.91-229.91ZM537.58,296.84c0,2.36-1.93,4.32-4.3,4.36-39.6.67-77.85,12.5-110.64,34.22-.68.45-.57,1.1-.49,1.36.08.26.35.86,1.16.86h109.9c2.41,0,4.37,1.96,4.37,4.38v20.54c0,2.41-1.96,4.37-4.37,4.37H226.6c-2.41,0-4.37-1.96-4.37-4.37v-20.54c0-2.41,1.96-4.38,4.37-4.38h109.9c.81,0,1.08-.6,1.16-.86.08-.26.19-.91-.49-1.36-32.79-21.72-71.05-33.55-110.64-34.22-2.37-.04-4.3-2-4.3-4.36v-20.84c0-1.18.47-2.3,1.31-3.13.84-.83,1.96-1.3,3.13-1.26,47.63.72,93.5,15.79,132.7,43.58,1.43-.27,2.51-1.52,2.51-3.02v-82.43c0-2.41,1.96-4.38,4.37-4.38h27.3c2.41,0,4.37,1.96,4.37,4.38v84.89c0,.34.28.61.61.61h1.82c39.21-27.83,85.11-42.92,132.77-43.64,1.16,0,2.29.43,3.13,1.26.84.83,1.31,1.94,1.31,3.13v20.84Z"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Valores Fundamentais -->
+    <section id="valores" class="valores-section">
+      <div class="section-container">
+        <span class="section-tagline">Nossos Fundamentos</span>
+        <h2>O Que Nos Move</h2>
+        <p class="section-desc">Cremos em uma igreja centrada no Evangelho, que vive para a glória de Deus e edificação mútua.</p>
+        
+        <div class="valores-grid">
+          <div class="valor-card">
+            <div class="valor-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="valor-svg">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                <path d="M6 6h10"></path>
+                <path d="M6 10h10"></path>
+                <path d="M6 14h10"></path>
+              </svg>
+            </div>
+            <h3>Fidelidade Bíblica</h3>
+            <p>Nosso compromisso é com a pregação expositiva e o ensino fiel das Escrituras Sagradas como nossa única regra de fé e prática.</p>
+          </div>
+          
+          <div class="valor-card">
+            <div class="valor-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="valor-svg">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3>Comunhão & Família</h3>
+            <p>Acreditamos em relacionamentos intencionais, no cuidado mútuo e no fortalecimento das famílias à luz do amor de Cristo.</p>
+          </div>
+          
+          <div class="valor-card">
+            <div class="valor-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="valor-svg">
+                <line x1="12" y1="2" x2="12" y2="22"></line>
+                <line x1="8" y1="8" x2="16" y2="8"></line>
+              </svg>
+            </div>
+            <h3>Graça & Evangelho</h3>
+            <p>Proclamamos a maravilhosa graça de Deus em Cristo Jesus, o único caminho de redenção, paz e transformação para o homem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Quem Somos -->
+    <section id="quem-somos" class="quem-somos-section">
+      <div class="section-container grid-2-col">
+        <div class="quem-somos-img-container">
+          <div class="glow-bg"></div>
+          <img src="/igreja_conceitual.png" alt="Igreja Bíblica da Trindade" class="quem-somos-img">
+        </div>
+        <div class="quem-somos-content">
+          <span class="section-tagline">Quem Somos</span>
+          <h2>Uma Igreja Reformada e Centrada em Cristo</h2>
+          <p class="lead-text">A Igreja Bíblica da Trindade nasceu do desejo de viver o evangelho de maneira autêntica, simples e profundamente alinhada com as Escrituras Sagradas em Pirassununga-SP.</p>
+          <p>Somos uma comunidade acolhedora que busca glorificar a Deus através de cultos reverentes, comunhão calorosa e proclamação do Evangelho. Nossa teologia é reformada, crendo na soberania de Deus, na salvação unicamente pela graça através da fé em Jesus Cristo, e no sacerdócio de todos os crentes.</p>
+          
+          <!-- Governança Bíblica -->
+          <div class="governanca-block">
+            <h3>Governança Bíblica</h3>
+            <p>Nosso compromisso é com uma liderança transparente, bíblica e devotada ao pastoreio e cuidado integral da igreja.</p>
+            <div class="governanca-badges">
+              <div class="gov-badge">
+                <span class="badge-title">Presbitério</span>
+                <span class="badge-desc">Pastoreio & Doutrina</span>
+              </div>
+              <div class="gov-badge">
+                <span class="badge-title">Conselho Administrativo</span>
+                <span class="badge-desc">Gestão & Recursos</span>
+              </div>
+              <div class="gov-badge">
+                <span class="badge-title">Diaconia</span>
+                <span class="badge-desc">Serviço & Assistência</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Ministérios -->
+    <section id="ministerios" class="ministerios-section">
+      <div class="section-container">
+        <span class="section-tagline">Nossa Atuação</span>
+        <h2>Ministérios Ativos</h2>
+        <p class="section-desc">Conheça os departamentos de serviço e discipulado focados no crescimento espiritual e cuidado mútuo.</p>
+        
+        <div class="ministerios-grid">
+          <div class="ministerio-card">
+            <div class="ministerio-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-svg"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+            </div>
+            <h3>Música & Louvor</h3>
+            <p>Liderando a igreja na adoração coletiva por meio de cânticos reverentes, centrados no evangelho e biblicamente fiéis.</p>
+          </div>
+          
+          <div class="ministerio-card">
+            <div class="ministerio-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-svg"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            </div>
+            <h3>Casais & Famílias</h3>
+            <p>Apoio e fortalecimento mútuo para famílias por meio de pequenos grupos, aconselhamento e encontros dedicados ao lar.</p>
+          </div>
+          
+          <div class="ministerio-card">
+            <div class="ministerio-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-svg"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3>Mulheres (Rotas de Fuga)</h3>
+            <p>Um espaço seguro de estudo bíblico, acolhimento e oração recíproca para mulheres que buscam refúgio e comunhão em Deus.</p>
+          </div>
+          
+          <div class="ministerio-card">
+            <div class="ministerio-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-svg"><path d="M18 15h-2v4h2v-4zM8 15H6v4h2v-4zM12 11h-2v8h2v-8zM14 11h2v8h-2v-8zM10 7h4v4h-4V7zM4 19h16v2H4v-2z"></path></svg>
+            </div>
+            <h3>IBT Kids</h3>
+            <p>Ensino bíblico criativo e discipulado intencional para a nova geração, auxiliando os pais na caminhada cristã diária.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Teológica e Confessional (Fase 4) -->
+    <section id="teologia" class="teologia-section">
+      <div class="section-container grid-2-col">
+        <div class="credos-content">
+          <div class="teologia-title-block">
+            <!-- Símbolo Oficial Simbolo_IBT fornecido -->
+            <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="teologia-cruz-svg">
+              <defs>
+                <style>.cls-cruz { fill: #ffffff; }</style>
+              </defs>
+              <path class="cls-cruz" d="M520.24,423.96h-40.48c-2.85,0-5.16,2.31-5.16,5.16v395.26c0,2.11,1.71,3.81,3.81,3.81h43.16c2.11,0,3.81-1.71,3.81-3.81v-395.26c0-2.85-2.31-5.16-5.16-5.16Z"/>
+              <path class="cls-cruz" d="M566.86,342.66h0c53.44-35.4,115.14-54.4,179.4-55.49,2.08-.04,3.75-1.71,3.75-3.79v-33.47c0-2.13-1.75-3.87-3.88-3.84-76.38,1.15-149.39,25.22-212.24,70.07h-3.95c-2.32,0-4.2-1.88-4.2-4.2v-136.33c0-2.11-1.71-3.81-3.81-3.81h-43.85c-2.11,0-3.81,1.71-3.81,3.81v132.37c0,4.48-3.67,8.15-8.15,8.15h0c-62.84-44.85-135.86-68.92-212.24-70.07-2.13-.03-3.88,1.71-3.88,3.84v33.47c0,2.08,1.67,3.75,3.75,3.79,64.26,1.09,125.95,20.09,179.4,55.49h0c4.26,2.82,2.26,9.45-2.85,9.45h-176.48c-2.11,0-3.81,1.71-3.81,3.81v32.98c0,2.11,1.71,3.81,3.81,3.81h492.37c2.11,0,3.81-1.71,3.81-3.81v-32.98c0-2.11-1.71-3.81-3.81-3.81h-176.48c-5.11,0-7.1-6.63-2.85-9.45Z"/>
+            </svg>
+            <div class="title-text">
+              <span class="section-tagline">Nossa Fé</span>
+              <h2>Documentos Confessionais</h2>
+            </div>
+          </div>
+          
+          <p class="section-desc-alt">Identificamo-nos com a herança histórica da igreja cristã e com a tradição reformada, professando nossa fé através dos credos ecumênicos históricos:</p>
+          
+          <ul class="credos-list">
+            <li>
+              <span class="credo-icon"></span>
+              <div>
+                <h4>Credo Apostólico</h4>
+                <p>A síntese histórica da fé dos apóstolos, confessando a Trindade e a obra da redenção.</p>
+              </div>
+            </li>
+            <li>
+              <span class="credo-icon"></span>
+              <div>
+                <h4>Credo Niceno-Constantinopolitano</h4>
+                <p>A formulação ortodoxa da divindade de Jesus Cristo e da pessoa do Espírito Santo.</p>
+              </div>
+            </li>
+            <li>
+              <span class="credo-icon"></span>
+              <div>
+                <h4>Credo de Calcedônia</h4>
+                <p>A definição clássica sobre as duas naturezas (divina e humana) de Jesus Cristo em uma só pessoa.</p>
+              </div>
+            </li>
+            <li>
+              <span class="credo-icon"></span>
+              <div>
+                <h4>Credo de Anastásio</h4>
+                <p>A declaração detalhada da doutrina da Trindade e da encarnação de nosso Senhor.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="downloads-panel">
+          <div class="downloads-card">
+            <h3>Documentos & Downloads</h3>
+            <p>Acesse nossos estatutos oficiais e o pacto de compromisso que rege nossa comunhão como membros do corpo de Cristo.</p>
+            
+            <div class="download-items">
+              <div class="download-item">
+                <div class="doc-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="doc-svg"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                </div>
+                <div class="doc-info">
+                  <h4>Estatuto IBT</h4>
+                  <p>Regras de funcionamento e governança jurídica.</p>
+                </div>
+                <a href="#" class="download-action-btn" download aria-label="Baixar Estatuto">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dl-svg"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                </a>
+              </div>
+              
+              <div class="download-item">
+                <div class="doc-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="doc-svg"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                </div>
+                <div class="doc-info">
+                  <h4>Pacto de Membresia IBT</h4>
+                  <p>Compromisso de comunhão cristã recíproca.</p>
+                </div>
+                <a href="#" class="download-action-btn" download aria-label="Baixar Pacto de Membresia">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dl-svg"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Cultos e Localização (Fase 5) -->
+    <section id="cultos" class="cultos-section">
+      <div class="section-container grid-2-col">
+        <div class="cultos-content">
+          <span class="section-tagline">Nossos Encontros</span>
+          <h2>Cultos & Reuniões</h2>
+          <p class="section-desc">Junte-se a nós em nossas reuniões de adoração congregacional e estudo das Escrituras.</p>
+          
+          <div class="agenda-items">
+            <div class="agenda-item highlighted">
+              <div class="agenda-time">
+                <span class="day">Domingo</span>
+                <span class="hour">19:00</span>
+              </div>
+              <div class="agenda-info">
+                <h3>Culto Solene de Adoração</h3>
+                <p>Nossa principal celebração da semana. Adoração com hinos doutrinários, orações coletivas e pregação expositiva fiel.</p>
+              </div>
+            </div>
+            
+            <div class="agenda-item">
+              <div class="agenda-time">
+                <span class="day">Quarta-feira</span>
+                <span class="hour">20:00</span>
+              </div>
+              <div class="agenda-info">
+                <h3>Estudo Bíblico & Oração</h3>
+                <p>Momento devocional focado no estudo aprofundado de temas teológicos e intercessão mútua por nossa comunidade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visite-map-wrapper">
+          <span class="section-tagline">Onde Estamos</span>
+          <h2>Como Chegar</h2>
+          <p class="section-desc">Rua Siqueira Campos, 1200 - Centro, Pirassununga - SP, 13630-000</p>
+          
+          <div class="visite-map-container">
+            <div class="map-placeholder">
+              <div class="map-glow"></div>
+              <div class="map-marker-pulse">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="marker-icon"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="map-card">
+                <h5>IBT Pirassununga</h5>
+                <p>Rua Siqueira Campos, 1200 - Centro</p>
+                <a href="https://maps.google.com/?q=Rua+Siqueira+Campos,+1200+-+Centro,+Pirassununga+-+SP" target="_blank" rel="noopener">Como chegar</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="visite-actions">
+            <a href="https://maps.google.com/?q=Rua+Siqueira+Campos,+1200+-+Centro,+Pirassununga+-+SP" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>
+              Google Maps
+            </a>
+            <a href="https://waze.com/ul?q=Rua+Siqueira+Campos,+1200+Pirassununga" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              Abrir no Waze
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Dízimos e Ofertas (Fase 5) -->
+    <section id="contribuir" class="contribuir-section">
+      <div class="section-container">
+        <div class="contribuir-box">
+          <div class="contribuir-glow"></div>
+          <div class="contribuir-info">
+            <span class="section-tagline">Generosidade</span>
+            <h2>Dízimos e Ofertas</h2>
+            <p>Cremos na contribuição como um ato voluntário, alegre e de adoração a Deus, servindo para o sustento do ministério, assistência social e expansão do Evangelho local e global.</p>
+          </div>
+          
+          <div class="contribuir-cards">
+            <!-- Card de PIX -->
+            <div class="pix-card">
+              <h4>Contribua via PIX</h4>
+              <p>Utilize nossa chave Pix oficial CNPJ (copie com um clique):</p>
+              <div class="pix-input-group">
+                <input type="text" id="pixKey" value="61594801000117" readonly aria-label="Chave PIX IBT">
+                <button id="copyPixBtn" aria-label="Copiar Chave PIX">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                  <span>Copiar</span>
+                </button>
+              </div>
+              <span class="copy-success-msg" id="copySuccessMsg">Chave copiada para a área de transferência!</span>
+            </div>
+
+            <!-- Card de Transferência Bancária -->
+            <div class="transferencia-card">
+              <h4>Transferência Bancária</h4>
+              <div class="transferencia-grid">
+                <div class="transf-item">
+                  <span class="label">Banco:</span>
+                  <span class="val">403 – Cora SCFI</span>
+                </div>
+                <div class="transf-item">
+                  <span class="label">Agência:</span>
+                  <span class="val">0001</span>
+                </div>
+                <div class="transf-item">
+                  <span class="label">Conta Corrente:</span>
+                  <span class="val">6086356-4</span>
+                </div>
+                <div class="transf-item wide">
+                  <span class="label">Nome da Empresa:</span>
+                  <span class="val">Igreja Bíblica da Trindade</span>
+                </div>
+                <div class="transf-item wide">
+                  <span class="label">CNPJ:</span>
+                  <span class="val">61.594.801/0001-17</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé Principal (Fase 5) -->
+  <footer class="main-footer" id="visite">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <!-- Logo oficial no rodapé -->
+          <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 750" class="footer-logo-svg">
+            <defs>
+              <style>.cls-foot { fill: #ffffff; }</style>
+            </defs>
+            <g>
+              <path class="cls-foot" d="M331.89,323.81h-27.24c-1.92,0-3.47,1.55-3.47,3.47v266.03c0,1.42,1.15,2.57,2.57,2.57h29.05c1.42,0,2.57-1.15,2.57-2.57v-266.03c0-1.92-1.55-3.47-3.47-3.47Z"/>
+              <path class="cls-foot" d="M363.26,269.1h0c35.97-23.83,77.49-36.62,120.74-37.35,1.4-.02,2.52-1.15,2.52-2.55v-22.52c0-1.43-1.18-2.6-2.61-2.58-51.41.77-100.55,16.98-142.85,47.16h-2.66c-1.56,0-2.82-1.26-2.82-2.82v-91.76c0-1.42-1.15-2.57-2.57-2.57h-29.51c-1.42,0-2.57,1.15-2.57,2.57v89.1c0,3.02-2.47,5.48-5.48,5.48h0c-42.3-30.19-91.44-46.39-142.85-47.16-1.43-.02-2.61,1.15-2.61,2.58v22.52c0,1.4,1.12,2.53,2.52,2.55,43.25.73,84.78,13.52,120.74,37.35h0c2.87,1.9,1.52,6.36-1.92,6.36h-118.79c-1.42,0-2.57,1.15-2.57,2.57v22.2c0,1.42,1.15,2.57,2.57,2.57h331.4c1.42,0,2.57-1.15,2.57-2.57v-22.2c0-1.42-1.15-2.57-2.57-2.57h-118.79c-3.44,0-4.78-4.46-1.92-6.36Z"/>
+            </g>
+            <g>
+              <path class="cls-foot" d="M680.11,323.81c-.82,0-1.54.52-1.8,1.3l-4.39,13.3c-.4,1.22.51,2.48,1.8,2.48h8.63c.73,0,1.39-.42,1.7-1.07l6.42-13.3c.61-1.26-.31-2.71-1.7-2.71h-10.66Z"/>
+              <path class="cls-foot" d="M571.94,302.79h74.98c.7,0,1.28-.57,1.28-1.28v-18.47c0-.7-.57-1.28-1.28-1.28h-26.22v-103.97h26.22c.7,0,1.28-.57,1.28-1.28v-18.47c0-.7-.57-1.28-1.28-1.28h-74.98c-.7,0-1.28.57-1.28,1.28v18.47c0,.7.57,1.28,1.28,1.28h26.22v103.97h-26.22c-.7,0-1.28.57-1.28,1.28v18.47c0,.7.57,1.28,1.28,1.28Z"/>
+              <path class="cls-foot" d="M741.04,305.47c23.91,0,41.58-10.55,49.76-29.7l3.52-8.24v33.98c0,.7.57,1.28,1.28,1.28h19.77c.7,0,1.28-.57,1.28-1.28v-78.02c0-.56-.46-1.02-1.02-1.02h-67.64c-.7,0-1.28.57-1.28,1.28v18.05c0,.7.57,1.28,1.28,1.28h45.94l-.28,2.08c-3,22.05-23.49,38.67-47.68,38.67-29.8,0-50.61-22.22-50.61-54.04s21.46-54.06,51.02-54.06,40.6,19.16,43.63,25.03c.14.27.37.46.65.55.25.08.53.05.77-.08l17.54-9.7c.6-.33.84-1.11.52-1.72-11.78-22.36-35.35-35.7-63.1-35.7-42.29,0-74.17,32.54-74.17,75.69s29.59,75.68,68.84,75.68Z"/>
+              <path class="cls-foot" d="M852.12,302.79h19.98c.7,0,1.28-.57,1.28-1.28v-53.67h34.2c14.72,0,22.5,7.05,22.5,20.38v33.3c0,.7.57,1.28,1.28,1.28h20.39c.7,0,1.28-.57,1.28-1.28v-37.84c0-16.38-7.97-28.24-22.44-33.4l-5.21-1.85,5.28-1.63c5.5-1.69,10.18-4.4,13.9-8.04,6.25-6.12,9.7-14.75,9.7-24.3,0-22.19-18.51-37.68-45.02-37.68h-57.09c-.7,0-1.28.57-1.28,1.28v143.45c0,.7.57,1.28,1.28,1.28ZM873.37,177.8h31.33c16.28,0,26.4,9.23,26.4,24.1s-10.76,24.93-25.58,24.93h-32.15v-49.02Z"/>
+              <path class="cls-foot" d="M988.98,302.79h87.5c.7,0,1.28-.57,1.28-1.28v-18.26c0-.7-.57-1.28-1.28-1.28h-66.25v-43.23h57.01c.7,0,1.28-.57,1.28-1.28v-18.05c0-.7-.57-1.28-1.28-1.28h-57.01v-40.35h63.99c.7,0,1.28-.57,1.28-1.28v-18.47c0-.7-.57-1.28-1.28-1.28h-85.24c-.7,0-1.28.57-1.28,1.28v143.45c0,.7.57,1.28,1.28,1.28Z"/>
+              <path class="cls-foot" d="M1144.27,305.47c31.72,0,53.03-20.45,53.03-50.9v-96.78c0-.56-.46-1.02-1.02-1.02h-72.16c-.7,0-1.28.57-1.28,1.28v18.47c0,.7.57,1.28,1.28,1.28h50.85v76.78c0,14.56-9.49,29.26-30.7,29.26-12.87,0-23.47-7.38-28.35-19.74-.1-.26-.31-.45-.58-.55-.11-.04-.23-.06-.34-.06-.18,0-.36.05-.52.14l-16.66,9.61c-.44.25-.63.78-.46,1.23,5.89,14.99,21.3,31.01,46.9,31.01Z"/>
+              <path class="cls-foot" d="M1217.9,302.79h20.89c.56,0,1.05-.36,1.22-.89l9.77-31.12h67.12l9.78,31.12c.17.53.66.89,1.22.89h21.09c.33,0,.63-.15.82-.42.19-.26.25-.6.15-.91l-45.56-143.97c-.14-.43-.52-.71-.97-.71h-39.96c-.45,0-.83.29-.97.71l-45.56,143.97c-.1.31-.04.64.15.91.19.26.49.42.82.42ZM1283.34,163.12l26.97,86.21h-53.93l26.96-86.21Z"/>
+              <path class="cls-foot" d="M828.94,487.98h-54.45c-1.12,0-2.03.91-2.03,2.04v13.69c0,1.12.91,2.04,2.03,2.04h17.8v72.39h-17.8c-1.12,0-2.03.91-2.03,2.04v13.69c0,1.12.91,2.04,2.03,2.04h54.45c1.12,0,2.04-.91,2.04-2.04v-13.69c0-1.12-.91-2.04-2.04-2.04h-17.8v-72.39h17.8c1.12,0,2.04-.91,2.04-2.04v-13.69c0-1.12-.91-2.04-2.04-2.04Z"/>
+              <path class="cls-foot" d="M743.94,534.92c4.76-4.66,7.39-11.21,7.39-18.46,0-16.77-13.89-28.48-33.78-28.48h-41.37c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h14.78c1.12,0,2.04-.91,2.04-2.04v-37.6h23.36c9.76,0,14.93,4.63,14.93,13.4v24.2c0,1.12.91,2.04,2.03,2.04h15.08c1.12,0,2.04-.91,2.04-2.04v-27.48c0-12.41-6.06-21.4-17.05-25.31l-.06-.02.06-.02c4.17-1.28,7.72-3.34,10.55-6.11ZM714.89,538.5h-21.88v-32.76h21.29c10.94,0,17.74,6.16,17.74,16.08s-7.21,16.68-17.15,16.68Z"/>
+              <path class="cls-foot" d="M1347.97,578.28h-46.67v-28.58h40c1.12,0,2.04-.91,2.04-2.04v-13.39c0-1.12-.91-2.03-2.04-2.03h-40v-26.5h45.04c1.12,0,2.03-.91,2.03-2.04v-13.69c0-1.12-.91-2.04-2.03-2.04h-61.86c-1.12,0-2.03.91-2.03,2.04v103.84c0,1.12.91,2.04,2.03,2.04h63.49c1.12,0,2.03-.91,2.03-2.04v-13.54c0-1.12-.91-2.04-2.03-2.04Z"/>
+              <path class="cls-foot" d="M1127.63,489.4c-.27-.85-1.05-1.42-1.94-1.42h-28.83c-.89,0-1.67.57-1.94,1.42l-32.86,103.84c-.2.63-.09,1.29.3,1.82.39.53.99.83,1.64.83h15.21c.89,0,1.67-.57,1.94-1.43l6.8-21.67h46.5l6.81,21.67c.27.85,1.05,1.43,1.94,1.43h15.35c.66,0,1.26-.3,1.64-.83.39-.53.5-1.19.3-1.82l-32.86-103.84ZM1093.52,554.73l17.68-56.52,17.68,56.52h-35.36Z"/>
+              <path class="cls-foot" d="M653.8,487.98h-81.1c-1.12,0-2.04.91-2.04,2.04v13.84c0,1.12.91,2.04,2.04,2.04h30.98v87.96c0,1.12.91,2.04,2.03,2.04h14.93c1.12,0,2.04-.91,2.04-2.04v-87.96h31.12c1.12,0,2.04-.91,2.04-2.04v-13.84c0-1.12-.91-2.04-2.04-2.04Z"/>
+              <path class="cls-foot" d="M940.8,487.98h-14.48c-1.12,0-2.04.91-2.04,2.04v92.15l-36.43-92.9c-.31-.78-1.05-1.29-1.9-1.29h-29.07c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h14.63c1.12,0,2.04-.91,2.04-2.04v-92.02l35.84,92.75c.3.78,1.06,1.3,1.9,1.3h29.51c1.12,0,2.04-.91,2.04-2.04v-103.84c0-1.12-.91-2.04-2.04-2.04Z"/>
+              <path class="cls-foot" d="M1000.01,487.98h-32.49c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h32.49c33.29,0,54.8-21.18,54.8-53.95s-22.53-53.96-54.8-53.96ZM998.67,578.28h-14.19v-72.69h14.19c22.63,0,36.69,13.93,36.69,36.34s-13.71,36.34-36.69,36.34Z"/>
+              <path class="cls-foot" d="M1211.2,487.98h-32.48c-1.12,0-2.04.91-2.04,2.04v103.84c0,1.12.91,2.04,2.04,2.04h32.48c33.29,0,54.8-21.18,54.8-53.95s-22.53-53.96-54.8-53.96ZM1209.86,578.28h-14.19v-72.69h14.19c22.63,0,36.69,13.93,36.69,36.34s-13.71,36.34-36.69,36.34Z"/>
+              <path class="cls-foot" d="M655.16,445.36h49.68c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-15.96v-65.49h15.96c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-49.68c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14h15.96v65.49h-15.96c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14Z"/>
+              <path class="cls-foot" d="M934.32,363.11c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-49.68c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14h15.96v65.49h-15.96c-1.18,0-2.14.96-2.14,2.14v12.49c0,1.18.96,2.14,2.14,2.14h49.68c1.18,0,2.14-.96,2.14-2.14v-12.49c0-1.18-.96-2.14-2.14-2.14h-15.96v-65.49h15.96Z"/>
+              <path class="cls-foot" d="M1068.86,424.29h42.01l6.15,19.57c.28.89,1.1,1.5,2.04,1.5h14c.69,0,1.32-.32,1.72-.87.41-.56.52-1.25.31-1.91l-29.98-94.74c-.28-.89-1.1-1.49-2.04-1.49h-26.3c-.94,0-1.75.6-2.04,1.49l-29.98,94.74c-.21.66-.09,1.35.31,1.91.41.56,1.03.87,1.72.87h13.87c.94,0,1.76-.6,2.04-1.5l6.14-19.57ZM1089.87,356.9l15.75,50.35h-31.5l15.75-50.35Z"/>
+              <path class="cls-foot" d="M1325.67,424.29l6.15,19.57c.28.89,1.1,1.5,2.04,1.5h14c.69,0,1.32-.32,1.72-.87.41-.55.52-1.25.31-1.91l-29.98-94.74c-.28-.89-1.1-1.49-2.04-1.49h-26.3c-.94,0-1.75.6-2.04,1.49l-29.98,94.74c-.21.66-.09,1.35.31,1.91.41.56,1.03.87,1.72.87h13.87c.94,0,1.76-.6,2.04-1.5l6.14-19.57h42.02ZM1304.66,356.9l15.75,50.35h-31.5l15.75-50.35Z"/>
+              <path class="cls-foot" d="M572.8,445.35h36.66c18.41,0,31.77-12.81,31.77-30.47,0-11.89-6.21-21.46-16.67-25.73,8.51-2.9,13.56-10.05,13.56-19.27,0-14.08-11.84-23.54-29.47-23.54h-35.85c-1.18,0-2.14.96-2.14,2.14v94.73c0,1.18.96,2.14,2.14,2.14ZM588.42,362.97h19.01c7.49,0,12.53,4.42,12.53,10.99,0,7.47-5.04,12.48-12.53,12.48h-19.01v-23.48ZM588.42,402.26h20.5c8.46,0,14.15,5.07,14.15,12.62,0,8.03-5.95,13.85-14.15,13.85h-20.5v-26.47Z"/>
+              <path class="cls-foot" d="M794.54,414.88c0-11.89-6.22-21.46-16.67-25.73,8.51-2.9,13.56-10.05,13.56-19.27,0-14.08-11.84-23.54-29.47-23.54h-35.85c-1.18,0-2.14.96-2.14,2.14v94.73c0,1.18.96,2.14,2.14,2.14h36.66c18.41,0,31.77-12.81,31.77-30.47ZM741.73,362.97h19.01c7.49,0,12.53,4.42,12.53,10.99,0,7.47-5.04,12.48-12.53,12.48h-19.01v-23.48ZM762.23,428.73h-20.5v-26.47h20.5c8.46,0,14.15,5.07,14.15,12.62,0,8.03-5.95,13.85-14.15,13.85Z"/>
+              <path class="cls-foot" d="M810.39,348.48v93.48c0,1.87,1.52,3.39,3.39,3.39h55.72c1.18,0,2.14-.96,2.14-2.14v-12.63c0-1.18-.96-2.14-2.14-2.14h-41.22v-79.97c0-1.18-.96-2.14-2.14-2.14h-13.62c-1.18,0-2.14.96-2.14,2.14Z"/>
+              <path class="cls-foot" d="M1042.96,415.23l.29-.86c.14-.42-.05-.87-.44-1.07l-14.35-7.22c-.23-.12-.51-.13-.75-.02-.24.11-.42.31-.49.57l-.34,1.21c-3.8,13.44-15.48,22.12-29.75,22.12-18.99,0-32.25-14.02-32.25-34.1s13.56-34.11,32.25-34.11c13.08,0,24.19,7.24,28.31,18.46l.41,1.13c.09.24.28.43.52.52.24.09.51.07.73-.05l14.05-7.55c.4-.22.58-.71.39-1.13l-.38-.88c-7.53-17.32-23.99-27.67-44.03-27.67-28.74,0-50.41,22.04-50.41,51.27s21.2,51.27,50.41,51.27c21.34,0,39.33-12.52,45.85-31.89Z"/>
+              <path class="cls-foot" d="M1178.76,445.36h29.64c30.54,0,50.27-19.43,50.27-49.5s-20.67-49.51-50.27-49.51h-29.64c-1.18,0-2.14.96-2.14,2.14v94.73c0,1.18.96,2.14,2.14,2.14ZM1194.51,362.98h12.66c20.47,0,33.19,12.6,33.19,32.88s-12.41,32.88-33.19,32.88h-12.66v-65.76Z"/>
+            </g>
+          </svg>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <a href="#inicio">Início</a>
+            <a href="#valores">Valores</a>
+            <a href="#quem-somos">Quem Somos</a>
+            <a href="#teologia">Nossa Fé</a>
+            <a href="#cultos">Cultos</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contato & Endereço</h4>
+            <p>Rua Siqueira Campos, 1200<br>Centro, Pirassununga - SP</p>
+            <p class="foot-tel">WhatsApp: (19) 99876-5432</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Igreja Bíblica da Trindade. Todos os direitos reservados. | <a href="#" id="adminOpenLink" class="admin-trigger-link">Painel Administrativo</a></p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/ibt.igreja/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"></path><polygon points="10 15 15 12 10 9 10 15"></polygon></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de Login Administrativo -->
+  <div id="adminLoginModal" class="admin-modal-overlay">
+    <div class="admin-modal-content login-card">
+      <button class="close-modal-btn" id="closeLoginBtn" aria-label="Fechar">&times;</button>
+      <div class="login-header">
+        <h3>Acesso Restrito</h3>
+        <p>Igreja Bíblica da Trindade - Administrativo</p>
+      </div>
+      <form id="adminLoginForm" class="admin-form">
+        <div class="form-group">
+          <label for="adminUser">Usuário</label>
+          <input type="text" id="adminUser" placeholder="Digite seu usuário" required autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label for="adminPass">Senha</label>
+          <input type="password" id="adminPass" placeholder="Digite sua senha" required autocomplete="current-password">
+        </div>
+        <div class="error-alert" id="loginErrorMsg">Usuário ou senha inválidos!</div>
+        <button type="submit" class="btn btn-primary btn-block">Autenticar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Painel Administrativo SPA (TELA CHEIA) -->
+  <div id="adminDashboard" class="admin-dashboard-layout" style="display: none;">
+    <!-- Sidebar Administrativa -->
+    <aside class="admin-sidebar">
+      <div class="sidebar-header">
+        <span class="logo-text">IBT Admin</span>
+        <span class="badge badge-gold">MÓDULO DE GESTÃO</span>
+      </div>
+      <nav class="sidebar-menu">
+        <button class="menu-item active" data-tab="dashboard">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="menu-icon"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
+          Visão Geral
+        </button>
+        <button class="menu-item" data-tab="membros">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="menu-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          Secretaria (Membros)
+        </button>
+        <button class="menu-item" data-tab="financeiro">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="menu-icon"><line x1="12" y1="2" x2="12" y2="22"></line><line x1="8" y1="8" x2="16" y2="8"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          Tesouraria (Caixa)
+        </button>
+        <button class="menu-item" data-tab="escalas">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="menu-icon"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Escalas de Culto
+        </button>
+        <button class="menu-item" data-tab="cms">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="menu-icon"><path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg>
+          CMS (Gerir Site)
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="admin-user-info">
+          <span class="user-name">Administrador</span>
+          <span class="user-role">Nível Máximo</span>
+        </div>
+        <button id="adminLogoutBtn" class="logout-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="menu-icon"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+          Sair do Painel
+        </button>
+      </div>
+    </aside>
+
+    <!-- Conteúdo Principal do Admin -->
+    <main class="admin-content-area">
+      <!-- Topbar -->
+      <header class="admin-topbar">
+        <h2 id="adminTabTitle">Painel de Controle</h2>
+        <button id="adminCloseBtn" class="btn btn-outline" title="Voltar ao Site da Igreja">Voltar ao Site</button>
+      </header>
+
+      <!-- Seção Dinâmica de Abas -->
+      <div class="admin-tab-container">
+        
+        <!-- Aba 1: Dashboard -->
+        <section id="tab-dashboard" class="admin-tab-content active">
+          <div class="admin-stats-grid">
+            <div class="stat-card blue">
+              <span class="stat-label">Membros Cadastrados</span>
+              <h3 id="statTotalMembers">--</h3>
+              <p>Membros oficiais e ativos</p>
+            </div>
+            <div class="stat-card gold">
+              <span class="stat-label">Saldo em Caixa</span>
+              <h3 id="statCurrentBalance">R$ --</h3>
+              <p>Saldo consolidado</p>
+            </div>
+            <div class="stat-card turq">
+              <span class="stat-label">Voluntários Escalados</span>
+              <h3 id="statTotalVolunteers">--</h3>
+              <p>Para o próximo culto</p>
+            </div>
+            <div class="stat-card purple">
+              <span class="stat-label">Pequenos Grupos</span>
+              <h3 id="statTotalPGs">4</h3>
+              <p>Células ativas em Pirassununga</p>
+            </div>
+          </div>
+
+          <div class="dashboard-charts-grid">
+            <div class="chart-box">
+              <div class="chart-header">
+                <h4>Fluxo de Caixa (Mensal)</h4>
+                <div class="chart-legend">
+                  <span class="legend-item blue">Entradas</span>
+                  <span class="legend-item red">Saídas</span>
+                </div>
+              </div>
+              <div class="chart-svg-container" id="financeChartContainer">
+                <!-- Gráfico SVG dinamicamente gerado -->
+              </div>
+            </div>
+            <div class="activity-box">
+              <h4>Atividades Recentes</h4>
+              <ul class="activity-list" id="activityFeed">
+                <!-- Lista de logs alimentada pelo JS -->
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Aba 2: Secretaria (Membros) -->
+        <section id="tab-membros" class="admin-tab-content">
+          <div class="action-bar">
+            <div class="search-filter-group">
+              <input type="text" id="memberSearch" placeholder="Pesquisar membro pelo nome...">
+              <select id="memberFilterRole">
+                <option value="todos">Todos os Cargos</option>
+                <option value="Pastor">Pastor</option>
+                <option value="Presbítero">Presbítero</option>
+                <option value="Diácono/Diaconisa">Diácono/Diaconisa</option>
+                <option value="Membro">Membro</option>
+                <option value="Visitante">Visitante</option>
+              </select>
+            </div>
+            <button id="addMemberBtn" class="btn btn-primary">+ Novo Membro</button>
+          </div>
+          <div class="table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Membro</th>
+                  <th>Cargo/Função</th>
+                  <th>Telefone</th>
+                  <th>Data Batismo/Admissão</th>
+                  <th>Status</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody id="membersTableBody">
+                <!-- Linhas inseridas dinamicamente -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Aba 3: Tesouraria (Financeiro) -->
+        <section id="tab-financeiro" class="admin-tab-content">
+          <div class="action-bar">
+            <div class="finance-stats-row">
+              <div class="finance-mini-stat text-success">
+                <span>Total de Entradas:</span>
+                <h4 id="finTotalIn">R$ 0,00</h4>
+              </div>
+              <div class="finance-mini-stat text-danger">
+                <span>Total de Saídas:</span>
+                <h4 id="finTotalOut">R$ 0,00</h4>
+              </div>
+            </div>
+            <button id="addTransactionBtn" class="btn btn-primary">+ Novo Lançamento</button>
+          </div>
+          <div class="table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Data</th>
+                  <th>Descrição</th>
+                  <th>Tipo</th>
+                  <th>Categoria</th>
+                  <th>Valor</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody id="financeTableBody">
+                <!-- Transações inseridas dinamicamente -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Aba 4: Escalas de Voluntários -->
+        <section id="tab-escalas" class="admin-tab-content">
+          <div class="scale-selector-bar">
+            <div class="form-group-inline">
+              <label for="scaleCultoDate">Selecione o Culto:</label>
+              <select id="scaleCultoDate">
+                <!-- Datas dos próximos cultos alimentadas pelo JS -->
+              </select>
+            </div>
+            <button id="saveScaleBtn" class="btn btn-primary">Salvar Escala do Culto</button>
+          </div>
+          <div class="scales-editor-grid">
+            <div class="scale-section-card">
+              <div class="card-title-gold">Música & Louvor</div>
+              <div class="form-group">
+                <label for="scaleLider">Líder do Período</label>
+                <select id="scaleLider" class="member-select-input"></select>
+              </div>
+              <div class="form-group">
+                <label for="scaleVocal">Vocal / Backing</label>
+                <select id="scaleVocal" class="member-select-input" multiple></select>
+              </div>
+              <div class="form-group">
+                <label for="scaleInstrumentos">Instrumentistas</label>
+                <select id="scaleInstrumentos" class="member-select-input" multiple></select>
+              </div>
+            </div>
+            
+            <div class="scale-section-card">
+              <div class="card-title-blue">Sonoplastia & Projeção</div>
+              <div class="form-group">
+                <label for="scaleSom">Operador de Som</label>
+                <select id="scaleSom" class="member-select-input"></select>
+              </div>
+              <div class="form-group">
+                <label for="scaleMidia">Mídia / Projeção</label>
+                <select id="scaleMidia" class="member-select-input"></select>
+              </div>
+              <div class="form-group">
+                <label for="scaleTransmissao">Transmissão Online</label>
+                <select id="scaleTransmissao" class="member-select-input"></select>
+              </div>
+            </div>
+
+            <div class="scale-section-card">
+              <div class="card-title-gold">Recepção & Diaconia</div>
+              <div class="form-group">
+                <label for="scaleRecepcao">Diáconos na Recepção</label>
+                <select id="scaleRecepcao" class="member-select-input" multiple></select>
+              </div>
+              <div class="form-group">
+                <label for="scaleAcolhimento">Apoio Geral</label>
+                <select id="scaleAcolhimento" class="member-select-input" multiple></select>
+              </div>
+            </div>
+
+            <div class="scale-section-card">
+              <div class="card-title-blue">IBT Kids (Crianças)</div>
+              <div class="form-group">
+                <label for="scaleProfessores">Professores Escalados</label>
+                <select id="scaleProfessores" class="member-select-input" multiple></select>
+              </div>
+              <div class="form-group">
+                <label for="scaleMonitores">Auxiliares / Monitores</label>
+                <select id="scaleMonitores" class="member-select-input" multiple></select>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Aba 5: CMS (Gerenciador do Site) -->
+        <section id="tab-cms" class="admin-tab-content">
+          <form id="cmsSettingsForm" class="cms-settings-form">
+            <div class="cms-form-grid">
+              <div class="cms-section-card">
+                <h4>Cabeçalho & Hero</h4>
+                <div class="form-group">
+                  <label for="cmsHeroTitle">Título Principal do Hero</label>
+                  <input type="text" id="cmsHeroTitle" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsHeroSubtitle">Subtítulo do Hero</label>
+                  <textarea id="cmsHeroSubtitle" rows="3" required></textarea>
+                </div>
+              </div>
+
+              <div class="cms-section-card">
+                <h4>Dados de Dízimos & PIX</h4>
+                <div class="form-group">
+                  <label for="cmsPixKey">Chave PIX (CNPJ)</label>
+                  <input type="text" id="cmsPixKey" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsBankName">Banco</label>
+                  <input type="text" id="cmsBankName" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsBankAgency">Agência</label>
+                  <input type="text" id="cmsBankAgency" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsBankAccount">Conta Corrente</label>
+                  <input type="text" id="cmsBankAccount" required>
+                </div>
+              </div>
+
+              <div class="cms-section-card">
+                <h4>Programação de Cultos</h4>
+                <div class="form-group">
+                  <label for="cmsCultoDomTitle">Título Reunião Domingo</label>
+                  <input type="text" id="cmsCultoDomTitle" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsCultoDomDesc">Descrição Reunião Domingo</label>
+                  <textarea id="cmsCultoDomDesc" rows="2" required></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="cmsCultoQuaTitle">Título Reunião Quarta</label>
+                  <input type="text" id="cmsCultoQuaTitle" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsCultoQuaDesc">Descrição Reunião Quarta</label>
+                  <textarea id="cmsCultoQuaDesc" rows="2" required></textarea>
+                </div>
+              </div>
+
+              <div class="cms-section-card">
+                <h4>Contatos & Endereço</h4>
+                <div class="form-group">
+                  <label for="cmsContactPhone">WhatsApp de Contato (Formatado)</label>
+                  <input type="text" id="cmsContactPhone" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsAddressText">Endereço da Igreja</label>
+                  <input type="text" id="cmsAddressText" required>
+                </div>
+                <div class="form-group">
+                  <label for="cmsInstagramUrl">Link do Instagram</label>
+                  <input type="url" id="cmsInstagramUrl" required>
+                </div>
+              </div>
+            </div>
+            
+            <div class="cms-actions-bar">
+              <button type="button" id="cmsResetBtn" class="btn btn-outline">Restaurar Padrões do Código</button>
+              <button type="submit" class="btn btn-primary">Salvar Alterações e Atualizar Site</button>
+            </div>
+          </form>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal Adicionar/Editar Membro -->
+  <div id="membroModal" class="admin-modal-overlay">
+    <div class="admin-modal-content">
+      <button class="close-modal-btn" id="closeMembroModalBtn" aria-label="Fechar">&times;</button>
+      <h3 id="membroModalTitle">Cadastrar Novo Membro</h3>
+      <form id="membroForm" class="admin-form">
+        <input type="hidden" id="membroId">
+        <div class="form-group">
+          <label for="membroName">Nome Completo</label>
+          <input type="text" id="membroName" required>
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="membroRole">Cargo/Função</label>
+            <select id="membroRole" required>
+              <option value="Membro">Membro</option>
+              <option value="Pastor">Pastor</option>
+              <option value="Presbítero">Presbítero</option>
+              <option value="Diácono/Diaconisa">Diácono/Diaconisa</option>
+              <option value="Visitante">Visitante</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="membroPhone">Telefone / WhatsApp</label>
+            <input type="text" id="membroPhone" placeholder="(19) 99999-9999" required>
+          </div>
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="membroDate">Data Admissão/Batismo</label>
+            <input type="date" id="membroDate" required>
+          </div>
+          <div class="form-group">
+            <label for="membroStatus">Status</label>
+            <select id="membroStatus" required>
+              <option value="Ativo">Ativo</option>
+              <option value="Inativo">Inativo</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Salvar Registro</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal Adicionar/Editar Transação Financeira -->
+  <div id="transacaoModal" class="admin-modal-overlay">
+    <div class="admin-modal-content">
+      <button class="close-modal-btn" id="closeTransacaoModalBtn" aria-label="Fechar">&times;</button>
+      <h3 id="transacaoModalTitle">Registrar Lançamento Financeiro</h3>
+      <form id="transacaoForm" class="admin-form">
+        <input type="hidden" id="transacaoId">
+        <div class="form-group">
+          <label for="transDesc">Descrição / Detalhe</label>
+          <input type="text" id="transDesc" placeholder="Ex: Dízimo Congregacional, Reforma Som, Conta de Luz" required>
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="transType">Tipo de Lançamento</label>
+            <select id="transType" required>
+              <option value="entrada">Entrada (Receita)</option>
+              <option value="saida">Saída (Despesa)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="transCat">Categoria</label>
+            <select id="transCat" required>
+              <option value="Dízimo">Dízimo</option>
+              <option value="Oferta">Oferta</option>
+              <option value="Aluguel/Manutenção">Aluguel/Manutenção</option>
+              <option value="Missões/Assistência">Missões/Assistência</option>
+              <option value="Ministério de Som/Música">Ministério de Som/Música</option>
+              <option value="Outros">Outros</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="transDate">Data do Lançamento</label>
+            <input type="date" id="transDate" required>
+          </div>
+          <div class="form-group">
+            <label for="transVal">Valor (R$)</label>
+            <input type="number" id="transVal" step="0.01" min="0.01" placeholder="0.00" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Salvar Lançamento</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JS Principal -->
+  <script type="module" src="/app.js"></script>
+  <!-- JS Administrativo -->
+  <script type="module" src="/admin.js"></script>
+</body>
+</html>
